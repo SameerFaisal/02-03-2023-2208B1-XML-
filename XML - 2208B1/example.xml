@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE friendList [
+    <!ELEMENT friendList (friend,bestFriend,friend)>
+    <!ELEMENT friend (name)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT bestFriend (name)>
+    <!ELEMENT friend2 (name)>
+    
+]>
+<friendList>
+  <friend>
+   <name>Ali</name>
+  </friend>
+  <bestFriend>
+    <name>Sadiq</name>
+  </bestFriend>
+  <friend>
+   <name>Romaan</name>
+  </friend>
+</friendList>
